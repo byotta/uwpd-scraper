@@ -1,6 +1,8 @@
 """
 Scrapes UWPD recent crime log webpage and sends an email when it updates
 """
+# TODO: add email functionality
+
 import requests
 import time
 from bs4 import BeautifulSoup
